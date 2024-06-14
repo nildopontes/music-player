@@ -1,0 +1,296 @@
+body{
+   background:#FFF;
+   padding:0;
+   width:100%;
+   margin:0;
+   color:#757575;
+   font-family:Helvetica;
+}
+.on{
+   background:#096;
+}
+.off{
+   background:#9CC;
+}
+h2, h1{
+   text-align:center;
+}
+h1{
+   font-size:30px;
+}
+.bt{
+   width:50vw;
+   height:40px;
+   margin-left:25vw;
+   margin-top:15px;
+   margin-bottom:30px;
+   color:#FFF;
+   border:1px solid #090;
+   font-weight:bold;
+}
+.bti{
+   width:40vw;
+   height:40px;
+   margin-left:6vw;
+   margin-top:15px;
+   color:#FFF;
+   border:1px solid #090;
+   font-weight:bold;
+   display:inline-block;
+}
+#inputMusics{
+   display:none;
+}
+.upload{
+   width:40px;
+   height:40px;
+   border-radius:50%;
+   background:green;
+   color:white;
+   font-size:40px;
+   line-height:40px;
+   text-align:center;
+}
+.btnUp{
+   margin:auto;
+   width:100px;
+   display:block;
+   text-align:center;
+   cursor:pointer;
+}
+.btnUp>*{
+   margin:auto;
+}
+#fileList{
+   width:98%;
+   height:auto;
+   margin-left:1%;
+   margin-bottom:20px;
+   border-radius:10px;
+   border:1px solid gray;
+   overflow:hidden;
+   display:none;
+}
+.music{
+   width:100%;
+   height:30px;
+   float:left;
+}
+.music>*{
+   display:block;
+   float:left;
+   font-size:18px;
+   line-height:30px;
+}
+.ico{
+   width:25px;
+}
+.name{
+   width:calc(100% - 120px);
+   border:0;
+   margin:0;
+   outline:none;
+}
+.size{
+   width:80px;
+}
+#controls{
+   display:none;
+}
+#controls>*{
+   width:98%;
+   height:30px;
+   margin-left:1%;
+}
+#controls>input{
+   box-sizing:border-box;
+   height:30px;
+   margin-bottom:5px;
+}
+input[type=button]{
+   cursor:pointer;
+}
+#pass{
+   width:92vw;
+   height:30px;
+   margin-left:3vw;
+}
+#btLog{
+   width:auto;
+   height:auto;
+   cursor:pointer;
+   font-size:30px;
+   color:red;
+   position:fixed;
+   top:20px;
+   right:20px;
+}
+#log{
+   width:100%;
+   height:100%;
+   overflow:scroll;
+   font-size:14px;
+   position:fixed;
+   top:0;
+   left:0;
+   background:white;
+   font-family:'Courier New';
+}
+.hide{
+   display:none;
+}
+.show{
+   display:block;
+}
+#player{
+   width:100%;
+   height:auto;
+   color:white;
+}
+#musicName{
+   width:100%;
+   height:30px;
+   text-align:center;
+   line-height:30px;
+   font-size:20px;
+   overflow:hidden;
+   text-overflow:ellipsis;
+}
+#musicArtist{
+   width:100%;
+   height:30px;
+   text-align:center;
+   line-height:14px;
+   font-size:14px;
+}
+.header{
+   width:100%;
+   height:40px;
+   text-align:center;
+}
+.home{
+   height:30px;
+   float:left;
+   margin-top:5px;
+   margin-left:10px;
+}
+.controls{
+   width:100%;
+   height:40px;
+   text-align:center;
+}
+.controls > *{
+   height:30px;
+   cursor:pointer;
+}
+#playPause{
+   margin:0;
+   margin-left:20px;
+   margin-right:20px;
+}
+.timeline{
+   width:100%;
+   height:40px;
+   text-align:center;
+   font-size:15px;
+}
+#currentTime{
+   float:left;
+   margin-left:2%;
+}
+#totalTime{
+   float:right;
+   margin-right:2%;
+}
+#progress{
+   width:96%;
+}
+#playlist{
+   width:100%;
+   height:calc(100% - 180px);
+}
+.wrapSearch{
+   width:calc(100% - 12px);
+   height:30px;
+   margin-top:5px;
+   margin-left:5px;
+   background:white;
+   border-radius:13px 13px 13px 13px;
+   overflow:hidden;
+}
+#search{
+   width:calc(100% - 40px);
+   height:30px;
+   margin-left:10px;
+   padding:0;
+   outline:none;
+   border:none;
+   vertical-align:top;
+}
+.btSearch{
+   height:20px;
+   margin:5px;
+}
+#searchResult{
+   width:calc(100% - 12px);
+   height:auto;
+   color:black;
+   margin-left:5px;
+   background:white;
+   border-radius:4px 4px 4px 4px;
+   padding:10px;
+   box-sizing:border-box;
+   display:none;
+}
+.item{
+   width:100%;
+   height:30px;
+   line-height:30px;
+   cursor:pointer;
+}
+.albums{
+   width:100%;
+   height:auto;
+   margin:0;
+   padding:0;
+}
+.mix{
+   width:46%;
+   height:100px;
+   margin-left:2.66%;
+   margin-top:2%;
+   float:left;
+   background:red;
+   text-align:center;
+   background:#666;
+   border-radius:3px;
+}
+.mix > span{
+   font-size:50px;
+}
+.track{
+   width:100%;
+   height:30px;
+   line-height:30px;
+   border-bottom:1px solid #847676;
+   cursor:pointer;
+   overflow:hidden;
+   text-overflow:ellipsis;
+}
+.track:last-child{
+   border:none;
+}
+.tName{
+   margin-left:2%;
+   color:#CEC9C9;
+}
+.tArtist{
+   margin-left:20px;
+   color:#847676;
+}
+.loading{
+   width:150px;
+   margin-left:calc((100% - 150px) / 2);
+   margin-top:10px;
+   margin-bottom:10px;
+}
