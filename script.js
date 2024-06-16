@@ -180,8 +180,4 @@ window.addEventListener('DOMContentLoaded', (event) => {
       });
    }
 });
-//window.onbeforeunload = (e) => {
-//   e.returnValue = true;
-//   return true;
-//};
 // Criar pagina update.html para fazer alterações especificas nos dados
