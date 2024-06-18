@@ -153,8 +153,8 @@ input[type=button]{
    text-align:center;
    line-height:30px;
    font-size:20px;
-   overflow:hidden;
-   text-overflow:ellipsis;
+   overflow-x:scroll;
+   white-space:nowrap;
 }
 #musicArtist{
    width:100%;
@@ -277,8 +277,8 @@ input[type=button]{
    height:45px;
    border-bottom:1px solid #847676;
    cursor:pointer;
-   overflow:hidden;
-   text-overflow:ellipsis;
+   overflow-x:scroll;
+   overflow-y:hidden;
    padding:5px;
    box-sizing:border-box;
 }
@@ -289,6 +289,7 @@ input[type=button]{
    color:#CEC9C9;
    font-size:20px;
    line-height:20px;
+   white-space:nowrap;
 }
 .tArtist{
    color:#847676;
